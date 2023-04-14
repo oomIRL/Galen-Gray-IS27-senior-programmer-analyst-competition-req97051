@@ -1,0 +1,15 @@
+{
+    "name": "gov-map-app",
+    "version": "0.0.1",
+    "description": "Simple Map Demo",
+    "author": "Mapping P McMapperson III",
+    "dependencies": {
+        "@bcgov/smk": "1.1.9",
+        "@bcgov/smk-cli": "^1.1.1",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1",
+        "start": "./node_modules/.bin/smk edit"
+    }
+}
